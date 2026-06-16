@@ -13,7 +13,7 @@ The goal of this project is to provide a simple, interactive tool for users to c
 - **Uvicorn**: ASGI server for serving the FastAPI backend.
 - **Pydantic**: request validation and data modeling in the API.
 - **yfinance**: financial data retrieval for stock metrics and trends.
-- **LangGraph**: AI-assisted prompt handling and report generation.
+- **LangChain**: AI-assisted prompt handling and report generation.
 - **React**: frontend UI framework.
 - **Vite**: frontend build and development tooling.
 - **lucide-react**: icon library used in the UI.
