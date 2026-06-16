@@ -1,6 +1,22 @@
 # Stock Risk Comparator
 
-Full-stack app built from `Python_Code.py` for comparing 1 to 6 company stocks with a 50-stock picker.
+A full-stack stock comparison app that helps investors compare, rank, and export risk analysis for up to six selected companies from a list of fifty.
+
+## Project Goal
+
+The goal of this project is to provide a simple, interactive tool for users to compare companies by risk and financial health using market data and AI-assisted analysis, then export the results into a shareable PDF.
+
+## Tools Used
+
+- **Python**: backend implementation and data processing.
+- **FastAPI**: backend web API framework.
+- **Uvicorn**: ASGI server for serving the FastAPI backend.
+- **Pydantic**: request validation and data modeling in the API.
+- **yfinance**: financial data retrieval for stock metrics and trends.
+- **LangChain / LangChain-GROQ / LangGraph**: AI-assisted prompt handling and report generation.
+- **React**: frontend UI framework.
+- **Vite**: frontend build and development tooling.
+- **lucide-react**: icon library used in the UI.
 
 ## User Interface Preview
 
@@ -49,4 +65,4 @@ Open `http://localhost:5173`.
 6. Review the ranked result output and risk analysis.
 7. Export the comparison report to PDF if needed.
 
-The API validates that users choose 1-6 unique tickers from `backend/stocks.py`.
+The API validates that users choose 1 to 6 unique tickers from `backend/stocks.py`.
