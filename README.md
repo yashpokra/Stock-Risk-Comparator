@@ -1,6 +1,6 @@
 # Stock Risk Comparator
 
-Full-stack app built from `Python_Code.py` for comparing 1 to 3 company stocks with a 50-stock picker.
+Full-stack app built from `Python_Code.py` for comparing 1 to 6 company stocks with a 50-stock picker.
 
 ## User Interface Preview
 
@@ -44,9 +44,9 @@ Open `http://localhost:5173`.
 1. Start the backend server using the commands above.
 2. Start the frontend development server.
 3. Open the app in your browser at `http://localhost:5173`.
-4. Select 1 to 3 unique stock tickers from the picker.
+4. Select 1 to 6 unique stock tickers from the picker.
 5. Submit the comparison request.
 6. Review the ranked result output and risk analysis.
 7. Export the comparison report to PDF if needed.
 
-The API validates that users choose 1, 2, or 3 unique tickers from `backend/stocks.py`.
+The API validates that users choose 1-6 unique tickers from `backend/stocks.py`.
